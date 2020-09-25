@@ -8,10 +8,8 @@ from discord.player import FFmpegPCMAudio
 from google.cloud import texttospeech
 
 TOKEN = 'YOUR BOT TOKEN'
-SERVER_ID = 'YOUR SERVER ID(type: int)'
 client = discord.Client()
 isConnect = False
-part = 0
 
 exclusive_extension = {
     '.png',
